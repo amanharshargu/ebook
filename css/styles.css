@@ -1,0 +1,61 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background: url("/images/header-background.jpg");
+  background-size: cover;
+}
+
+#header-ebook {
+  margin-left: 20%;
+}
+
+#header-text {
+  margin-top: 500px;
+}
+
+.wave {
+  position: relative;
+  z-index: 1;
+}
+
+#text-desc {
+  margin-top: 170px;
+  margin-left: 200px;
+}
+
+#desc-img {
+  margin-left: 70px;
+}
+
+#desc-btn {
+  margin-left: 50px;
+}
+
+#text-desc-2 {
+  margin-top: 70px;
+  margin-right: 200px;
+  padding-right: 300px;
+}
+
+#desc-img-2 {
+  margin-left: 100px;
+  padding-left: 100px;
+}
+
+#desc-btn-2 {
+  margin-left: -10px;
+}
