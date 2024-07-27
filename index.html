@@ -118,7 +118,7 @@
     </header>
 
     <div class="container-fluid bg-light p-5">
-      <div class="hstack row ">
+      <div class="hstack row">
         <div class="col-4 d-flex text-left pt-3">
           <i class="fas fa-user fa-3x text-primary p-3"></i>
           <div>
@@ -152,60 +152,65 @@
       </div>
     </div>
 
-    <div class="container-fluid mb-2 mt-2">
-      <div class="d-flex justify-content-around">
-        <div class="col-md-6 pt-5" id="text-desc">
-          <h2 class="text-center pb-2">Unlock Your Blogging Potential</h2>
-          <p class="text-center px-5">
-            Are you ready to unleash your true blogging potential? Our ebook,
-            "Blog Mastery," provides you with the tools and knowledge to take
-            your blog to the next level.
-          </p>
-          <ul class="list-group-borderless pt-2 ps-5">
-            <li
-              class="list-group-item p-2"
-              style="border-bottom: 1px solid #ccc"
+    <section class="details" id="details">
+      <div class="container-fluid my-5">
+        <div class="d-flex justify-content-around pt-5">
+          <div class="col-1"></div>
+          <div class="col-md-5 pt-5 mt-5" id="text-desc">
+            <h2 class="text-center pb-2 fs-1">
+              Unlock Your Blogging Potential
+            </h2>
+            <p class="text-center px-5">
+              Are you ready to unleash your true blogging potential? Our ebook,
+              "Blog Mastery," provides you with the tools and knowledge to take
+              your blog to the next level.
+            </p>
+            <ul class="list-group-borderless pt-2 ps-5 fs-5">
+              <li
+                class="list-group-item p-2"
+                style="border-bottom: 1px solid #ccc"
+              >
+                <i class="fas fa-square text-primary"></i>
+                <p class="fw-bold" style="display: inline">
+                  Unleash Your Creativity:
+                </p>
+                Our ebook empowers you to unleash your creativity and express
+                your unique voice through your blog.
+              </li>
+              <li
+                class="list-group-item p-2"
+                style="border-bottom: 1px solid #ccc"
+              >
+                <i class="fas fa-square text-primary"></i>
+                <p class="fw-bold" style="display: inline">
+                  Maximize Your Reach:
+                </p>
+                Learn how to optimize your blog for search engines.
+              </li>
+              <li class="list-group-item p-2">
+                <i class="fas fa-square text-primary"></i>
+                <p class="fw-bold" style="display: inline">
+                  Monetization Strategies:
+                </p>
+                Discover various monetization strategies, such as sponsored
+                content & affiliate marketing.
+              </li>
+            </ul>
+            <button
+              class="btn btn-primary btn-lg rounded-5 text-white fs-5"
+              id="desc-btn"
             >
-              <i class="fas fa-square text-primary"></i>
-              <p class="fw-bold" style="display: inline">
-                Unleash Your Creativity:
-              </p>
-              Our ebook empowers you to unleash your creativity and express your
-              unique voice through your blog.
-            </li>
-            <li
-              class="list-group-item p-2"
-              style="border-bottom: 1px solid #ccc"
-            >
-              <i class="fas fa-square text-primary"></i>
-              <p class="fw-bold" style="display: inline">
-                Maximize Your Reach:
-              </p>
-              Learn how to optimize your blog for search engines.
-            </li>
-            <li class="list-group-item p-2">
-              <i class="fas fa-square text-primary"></i>
-              <p class="fw-bold" style="display: inline">
-                Monetization Strategies:
-              </p>
-              Discover various monetization strategies, such as sponsored
-              content & affiliate marketing.
-            </li>
-          </ul>
-          <button
-            class="btn btn-primary b"tn-lg rounded-5 text-white"
-            id="desc-btn"
-          >
-            Get your Copy Now
-          </button>
-        </div>
-        <div class="col-md-6 pt-5 ps-2" id="desc-img">
-          <img src="/images/description.png" />
+              Get your Copy Now
+            </button>
+          </div>
+          <div class="col-md-6 ps-2 mt-4" id="desc-img">
+            <img src="/images/description.png" />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container-fluid mt-5" style="padding: 50px">
+    <div class="container-fluid my-5" style="padding: 50px">
       <div class="card mx-5 bg-light border-0 rounded-5">
         <div class="card-body">
           <h2 class="pb-2 pt-2">Master the Art of Blogging Excellence</h2>
@@ -224,14 +229,15 @@
       </div>
     </div>
 
-    <div class="container-fluid mb-2 mt-2" style="height: 100%; width: 100%;">
+    <div class="container-fluid mb-2 mt-2" style="height: 100%; width: 100%">
       <div class="d-flex">
-        <div class="col-6" id="desc-img-2">
+        <div class="col-1"></div>
+        <div class="col-5 ps-5" id="desc-img-2">
           <img src="/images/author.png" />
         </div>
         <div class="col-md-6 pt-5" id="text-desc-2">
           <h2 class="pb-2 fs-1">Craft Remarkable Content</h2>
-          <p style="font-size: 16px;">
+          <p style="font-size: 16px">
             Discover techniques for effective storytelling, engaging visuals,
             and compelling calls-to-action. Unlock the secrets of creating a
             consistent and authentic brand voice that sets you apart from the
@@ -277,26 +283,127 @@
     </div>
 
     <div class="container-fluid d-flex justify-content-evenly mt-5">
-      <div class="d-flex row my-5">
+      <div class="d-flex row my-5 px-5">
         <div class="p-2 col-4 text-center">
-          <img src="images/testimonial-1.jpg" class="img-fluid rounded-circle" style="height: 128px; width: 128px;">
-          <p class="fst-italic px-5 py-2 fs-4">"This ebook completely transformed my blogging journey. The practical strategies and valuable insights helped me take my blog to new heights. I highly recommend it!" </p>
+          <img
+            src="images/testimonial-1.jpg"
+            class="img-fluid rounded-circle"
+            style="height: 128px; width: 128px"
+          />
+          <p class="fst-italic px-5 py-2 fs-5 text-muted">
+            "This ebook completely transformed my blogging journey. The
+            practical strategies and valuable insights helped me take my blog to
+            new heights. I highly recommend it!"
+          </p>
           <p class="fw-bold text-sm">Kenny Smith - Portland, ME</p>
         </div>
         <div class="p-2 col-4 text-center">
-          <img src="images/testimonial-2.jpg" class="img-fluid rounded-circle" style="height: 128px; width: 128px;">
-          <p class="fst-italic px-5 py-2 fs-4">"I'm so grateful for this ebook! It provided me with the guidance and inspiration I needed to create engaging content and build a loyal readership. It's a game-changer!"</p>
+          <img
+            src="images/testimonial-2.jpg"
+            class="img-fluid rounded-circle"
+            style="height: 128px; width: 128px"
+          />
+          <p class="fst-italic px-5 py-2 fs-5 text-muted">
+            "I'm so grateful for this ebook! It provided me with the guidance
+            and inspiration I needed to create engaging content and build a
+            loyal readership. It's a game-changer!"
+          </p>
           <p class="fw-bold text-sm">Henry White - Boston, MA</p>
         </div>
         <div class="p-2 col-4 text-center">
-          <img src="images/testimonial-3.jpg" class="img-fluid rounded-circle" style="height: 128px; width: 128px;">
-          <p class="fst-italic px-5 py-2 fs-4">"I can't recommend this ebook enough. It's a treasure of blogging wisdom. It helped me unlock my creativity, connect with my audience, and achieve remarkable results."</p>
+          <img
+            src="images/testimonial-3.jpg"
+            class="img-fluid rounded-circle"
+            style="height: 128px; width: 128px"
+          />
+          <p class="fst-italic px-5 py-2 fs-5 text-muted">
+            "I can't recommend this ebook enough. It's a treasure of blogging
+            wisdom. It helped me unlock my creativity, connect with my audience,
+            and achieve remarkable results."
+          </p>
           <p class="fw-bold text-sm">Laurie Mitchell - Miami, FL</p>
         </div>
-      </div>      
+      </div>
     </div>
 
-    
+    <div class="container-fluid py-5" id="bottom">
+      <div class="row pt-n1">
+        <div class="col-1"></div>
+        <div class="col-4 ps-5 mt-n5">
+          <img src="images/header-ebook.png" id="header-ebook-2" />
+        </div>
+        <div class="col-6 pt-5">
+          <div class="header-text mt-5 text-white">
+            <h4 class="align-self-center pt-5 fw-bold fs-2 pb-2 text-start">
+              Get Your Free Ebook Now
+            </h4>
+            <p>
+              Unlock the power of knowledge and take your blogging journey to
+              the next level. Our ebook, "Blog Mastery: The Ultimate Guide to
+              Blogging Success," is your key to success.
+            </p>
+          </div>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Email Address"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary btn-primary text-white rounded-end"
+                type="button"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="social text-bg-dark py-5 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center fs-4">
+            <p>
+              Stay connected and join our vibrant community. For any inquiries
+              or assistance, feel free to reach out to us
+            </p>
+            <div class="social-icons d-flex justify-content-center gap-4">
+              <i class="fab fa-facebook fa-2x"></i>
+              <i class="fab fa-twitter fa-2x"></i>
+              <i class="fab fa-instagram fa-2x"></i>
+              <i class="fab fa-linkedin fa-2x"></i>
+              <i class="fab fa-pinterest fa-2x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-top border-primary py-4 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#details" class="nav-link link-light">Details</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 text-white">
+            <p class="text-end d-none d-md-block">Copyright &copy; 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
